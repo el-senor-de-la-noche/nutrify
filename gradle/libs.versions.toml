@@ -1,0 +1,124 @@
+[versions]
+agp = "8.13.1"
+kotlin = "2.2.21"
+
+coreKtx = "1.17.0"
+lifecycleRuntimeKtx = "2.10.0"
+activityCompose = "1.12.1"
+
+composeBom = "2025.12.00"
+
+navigation = "2.9.6"
+
+camera = "1.5.2"
+cameraView = "1.5.2"
+
+datastore = "1.2.0"
+
+retrofit = "3.0.0"
+okhttp = "5.3.2"
+
+mlkitTextRecognition = "16.0.1"
+mlkitImageLabeling = "17.0.9"
+
+ui = "1.10.0"
+material = "1.13.0"
+foundation = "1.10.0"
+
+googleGenai = "0.9.0"
+
+junit = "4.13.2"
+junitVersion = "1.3.0"
+espressoCore = "3.7.0"
+
+tvMaterial = "1.0.1"
+runtime = "1.10.0"
+inputmapping = "1.1.1-beta"
+roomKtx = "2.8.4"
+
+lifecycleViewmodelKtx = "2.10.0"
+volley = "1.2.1"
+firebaseCrashlyticsBuildtools = "3.0.6"
+places = "5.1.1"
+media3CommonKtx = "1.8.0"
+compiler = "3.2.0-alpha11"
+uiText = "1.10.0"
+roomCommonJvm = "2.8.4"
+
+
+
+[libraries]
+# --- CORE ---
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+
+# --- COMPOSE ---
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+
+compose-ui = { group = "androidx.compose.ui", name = "ui" }
+compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+
+compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+
+# <-- NUEVO: icons extended usando el BOM, sin versión fija
+compose-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended" }
+
+# --- NAVIGATION ---
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation" }
+
+# --- CAMERAX ---
+camera-core = { group = "androidx.camera", name = "camera-core", version.ref = "camera" }
+camera-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "camera" }
+camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "camera" }
+camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "cameraView" }
+
+# --- MLKIT ---
+mlkit-text-recognition = { group = "com.google.mlkit", name = "text-recognition", version.ref = "mlkitTextRecognition" }
+mlkit-image-labeling = { group = "com.google.mlkit", name = "image-labeling", version.ref = "mlkitImageLabeling" }
+
+# --- DATASTORE ---
+datastore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastore" }
+
+# --- RETROFIT + OKHTTP ---
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+
+# --- MATERIAL ---
+google-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+# --- GEMINI IA ---
+google-genai = { group = "com.google.ai.client.generativeai", name = "generativeai", version.ref = "googleGenai" }
+
+# --- TEST ---
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+
+# --- TV (opcional) ---
+androidx-tv-material = { group = "androidx.tv", name = "tv-material", version.ref = "tvMaterial" }
+androidx-runtime = { group = "androidx.compose.runtime", name = "runtime", version.ref = "runtime" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "ui" }
+inputmapping = { group = "com.google.android.libraries.play.games", name = "inputmapping", version.ref = "inputmapping" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
+androidx-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "foundation" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+volley = { group = "com.android.volley", name = "volley", version.ref = "volley" }
+firebase-crashlytics-buildtools = { group = "com.google.firebase", name = "firebase-crashlytics-buildtools", version.ref = "firebaseCrashlyticsBuildtools" }
+places = { group = "com.google.android.libraries.places", name = "places", version.ref = "places" }
+androidx-media3-common-ktx = { group = "androidx.media3", name = "media3-common-ktx", version.ref = "media3CommonKtx" }
+androidx-compiler = { group = "androidx.databinding", name = "compiler", version.ref = "compiler" }
+androidx-ui-text = { group = "androidx.compose.ui", name = "ui-text", version.ref = "uiText" }
+androidx-room-common-jvm = { group = "androidx.room", name = "room-common-jvm", version.ref = "roomCommonJvm" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }

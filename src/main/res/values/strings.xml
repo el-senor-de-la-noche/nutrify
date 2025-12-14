@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Nutrify</string>
+
+    <!-- Login -->
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="no_account">¿No tienes cuenta?</string>
+    <string name="register_here">Regístrate aquí</string>
+
+    <!-- Registro -->
+    <string name="register_title">Crear Cuenta</string>
+    <string name="name_hint">Nombre Completo</string>
+    <string name="confirm_password_hint">Confirmar Contraseña</string>
+    <string name="birth_date_hint">Fecha de Nacimiento</string>
+    <string name="weight_hint">Peso (kg)</string>
+    <string name="height_hint">Altura (m)</string>
+    <string name="register_button">Registrarse</string>
+    <string name="have_account">¿Ya tienes cuenta?</string>
+    <string name="login_here">Inicia Sesión</string>
+
+    <!-- Home -->
+    <string name="welcome">Bienvenido</string>
+    <string name="daily_summary">Resumen del Día</string>
+    <string name="calories">Calorías</string>
+    <string name="protein">Proteínas</string>
+    <string name="fiber">Fibra</string>
+    <string name="quick_stats">Estadísticas Rápidas</string>
+    <string name="recent_records">Registros Recientes</string>
+    <string name="see_all">Ver todos</string>
+
+    <!-- Cámara -->
+    <string name="camera_permission_title">Permiso de Cámara</string>
+    <string name="camera_permission_message">Nutrify necesita acceso a la cámara para analizar fotos de tus comidas.</string>
+    <string name="grant_permission">Conceder Permiso</string>
+    <string name="capture">Capturar</string>
+    <string name="analyze">Analizar</string>
+    <string name="retry">Reintentar</string>
+    <string name="save">Guardar</string>
+
+    <!-- Perfil -->
+    <string name="edit_profile">Editar Perfil</string>
+    <string name="save_changes">Guardar Cambios</string>
+    <string name="personal_info">Información Personal</string>
+    <string name="physical_info">Información Física</string>
+    <string name="preferences">Preferencias</string>
+
+    <!-- IMC -->
+    <string name="calculate_imc">Calcular IMC</string>
+    <string name="use_profile_data">Usar datos de mi perfil</string>
+    <string name="imc_results">Resultados IMC</string>
+    <string name="health_risk">Riesgo para la salud</string>
+    <string name="healthy_weight_range">Rango de peso saludable</string>
+    <string name="recommendations">Recomendaciones</string>
+    <string name="new_calculation">Nuevo Cálculo</string>
+
+    <!-- Errores -->
+    <string name="error_loading">Error al cargar datos</string>
+    <string name="error_saving">Error al guardar datos</string>
+    <string name="error_camera">Error con la cámara</string>
+    <string name="error_analysis">Error al analizar imagen</string>
+
+    <!-- Mensajes de éxito -->
+    <string name="success_saved">Guardado exitosamente</string>
+    <string name="success_analyzed">Análisis completado</string>
+</resources>
