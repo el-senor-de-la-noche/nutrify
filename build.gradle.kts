@@ -16,7 +16,7 @@ android {
         targetSdk = 35
         versionCode = 1
         versionName = "1.0.0"
-        buildConfigField ("String", "GEMINI_API_KEY", "\"AIzaSyC8hieW4Hk0RnOsaLAvXStUiijlTEPGO1U\"")
+        buildConfigField ("String", "GEMINI_API_KEY", "\"apikey\"")
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
